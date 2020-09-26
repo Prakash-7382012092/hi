@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shopping cart</title>
+	<link rel="stylesheet" type="text/css" href="css/first.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript">
+		function Delete(e){
+		let items= [];
+		JSON.parse(localStorage.getItem('items')).map(data=>{
+           if(data.id == e.parentElement.parentElement.children[0].textContent){//internet is slow
+             items.push(data);
+           }           
+		});
+		localStorage.setItem('items',JSON.stringify(items));
+		window.location.reload();
+	};
+	</script>
+</head>
+<body>
+<div class="main">
+<header class="header" id="header">
+	<h1>Shopping Cart</h1>
+	<div class="iconShopping">
+		<p>0</p>
+		<i class="fa fa-shopping-cart"></i>
+	</div>
+</header>
+	<div class="itemBox">
+		<div class="item">
+			<img src="images/ram1.jpg">
+			<div class="itemInfo">
+				<h1>Ramoji Film City</h1>
+				<p>$<span>42.00</span></p>
+				<a href="#" title="addtocart" class="addToCart">Add to cart</a>
+			</div>
+		</div>
+
+<div class="item">
+			<img src="images/ram2.jpg">
+			<div class="itemInfo">
+				<h1>Ramoji Film City</h1>
+				<p>$<span>42.00</span></p>
+				<a href="#" title="addtocart" class="addToCart">Add to cart</a>
+			</div>
+		</div>
+
+		<div class="item">
+			<img src="images/ram3.jpg">
+			<div class="itemInfo">
+				<h1>Ramoji Film City</h1>
+				<p>$<span>42.00</span></p>
+				<a href="#" title="addtocart" class="addToCart">Add to cart</a>
+			</div>
+		</div>	
+</div>
+<div class="cartBox">
+	<div class="cart">
+	<i class="fa fa-close"></i>
+	<h1>Cart</h1>
+	<table></table>
+</div>
+</div>
+</div>
+<script type="text/javascript"src="js/first.js"></script>
+</body>
+</html>

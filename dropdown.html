@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	ul{
+		list-style-type: none;
+	}	
+	ul li{
+		float: left;
+		width:300px;
+		height:50px;
+		background-color: aqua;
+		font-size: 50px;
+		text-align: center;
+		line-height: 50px;
+	}
+	ul li a{
+		text-decoration: none;
+		color:black;
+		display: block;
+	}
+	ul li a:hover{
+		background-color: green;
+		color:white;
+	}
+	ul li ul li{
+		display: none;
+	}
+	ul li:hover ul li{
+        display: block;
+	}
+	body{
+		background-image: url("images/ram2.jpg")
+	}
+	</style>
+</head>
+<body>
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">materials</a></li>
+	<li><a href="#">Tutorials</a>
+		<ul>
+			<li><a href="#">Html5</a></li>
+			<li><a href="#">css</a></li>
+			<li><a href="#">php</a></li>
+			<li><a href="#">sql</a></li>
+			<li><a href="#">java</a></li>
+			<li><a href="#">python</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Contact us</a></li>
+</ul>
+</body>
+</html>

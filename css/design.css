@@ -1,0 +1,310 @@
+*{
+margin: 0;
+padding: 0;	
+}
+.body{
+	font-family: sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	padding: 0;
+}
+.navbar-brand img{
+	height:40px;
+	padding-left: 20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+
+.fa-bars{
+	color:#fff;
+	font-size: 30px;
+}
+.navbar-toogler
+{
+	outline: none;
+}
+/*----Banner---*/
+#banner
+{
+ background-image: linear-gradient(to right,#a517ba,#5f1782);
+ color:#fff;
+ padding-top: 5%	
+}
+.promo-title{
+	font-size: 40px;
+	
+}
+.d{
+	height:100px; 
+	width:342px;
+	margin:20px;	
+}
+#banner a{
+	color:white;
+	text-decoration: none;
+}
+.c
+{
+	width:100%;
+}
+/*--Services---*/
+#services
+{
+	padding:50px 0;
+}
+.services-img{
+margin-top: 20px;
+}
+.services{
+	padding:20px;
+}
+.title::before{
+content:'';
+background:#7b1798;
+height:5px;
+width:200px;
+margin-left:auto;
+margin-right: auto;
+display: block;
+transform: translateY(63px)
+}
+.title::after{
+content:'';
+background:#7b1798;
+height:10px;
+width:50px;
+margin-left:auto;
+margin-right: auto;
+margin-bottom: 40px;
+display: block;
+transform: translateY(8px)
+}
+#services .btn-primary
+{
+	 background-image: linear-gradient(to right,#a517ba,#5f1782);
+	box-shadow: none;
+	padding: 8px 25px;
+	border:none;
+	border-radius: 20px;
+}
+/*---About-us----*/
+#about-us
+{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+}
+.about-title
+{
+	font-size: 40px;
+	font-weight: 600;
+
+}
+#about-us ul li{
+	margin:10px 0;
+	list-style-type: none;
+}
+/*-----Testimonials-----*/
+#testimonials{
+	margin: 10px 0;
+}
+.testimonials{
+	border-left:4px solid #7b1798;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.testimonials img{
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	margin: 0 10px;
+}
+.testimonials p{
+	font-size: 20px;
+}
+.v{
+	display: inline-block;	
+}
+#social-media{
+	background: #f8f9fa;
+	padding: 100px 0;
+}
+#social-media p{
+	font-size: 36px;
+}
+
+.social-icons i{
+   width:70px;
+   transition:0.5s;
+}
+.social-icons i:hover img{
+	transform: translateY(-10px);
+}
+#footer{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	color:#fff;
+}
+.footer-box
+{
+	padding: 20px;
+}
+.footer-box img{
+	width:120px;
+	margin-bottom: 20px;
+}
+.footer-box p{
+	font-size: 20px;
+}
+.footer-box .fa{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px
+}
+.footer-box .form-control
+{
+	box-shadow: none;
+	border:none;
+	border-radius:0;
+	margin-top: 25px;
+	max-width:250px;
+}
+.footer-box .btn-primary{
+	box-shadow: none;
+	border:none;
+	border-radius:0;
+	margin-top: 30px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+hr{
+	background-color: white;
+}
+.c{
+	padding-bottom: 20px;
+	text-align: center;
+}
+ input[type="text"]{
+   	border-radius: 20px;
+    background:color:blue;
+   }
+   input[type="password"]
+   {
+   	border-radius: 20px;
+   }
+   textarea
+   {
+   	border-radius: 20px;
+   }
+input:focus{
+  background-color: lightblue
+}
+
+.Register{
+  margin-top:10px;
+  margin-right:35px;
+  border:none;
+  font-family:cursive;
+  font-size:20px;
+  background:white;
+  padding-right: 10px;
+  float:right ;
+  border-radius:10px;
+   text-decoration: none
+
+   
+}
+input[type="submit"]{
+background-color: white;
+border-radius: 10px;
+font-size: 30px;
+border: none;
+font-family: cursive;
+text-align: right;
+
+
+float: left;
+   margin-bottom:20px;
+ }
+ input[type="reset"]{
+background-color: white;
+border-radius: 10px;
+font-size: 30px;
+border: none;
+font-family: cursive;
+text-align: right;
+margin-left: 65px;
+color:blue;
+
+   margin-bottom:20px;
+ }
+input[type="number"]{
+  border-radius: 10px;
+}
+input[type="date"]{
+  border-radius: 10px;
+}
+.RegisterForm{
+
+	padding:50px;
+	margin-left:100px;
+	font-family: cursive;
+	font-size: 25px;
+    border-radius:30px;
+   
+}
+input[type="submit"]{
+background-color: white;
+text-align: center
+border-radius: 10px;
+font-size: 30px;
+color:blue ;
+border: none;
+font-family: cursive;
+margin-left: 70px;
+}
+#contact
+{
+	background:#efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color:#777;
+}
+.contact-form
+{
+	padding:15px;	
+}
+.form-control
+{
+	border-radius:0;
+	border:none;
+}
+::placeholder
+{
+	color: #999;	
+}
+.follow
+{
+	background-color:#fff;
+	padding:10px;
+	margin:15px;
+}
+.contact-info .fa{
+	margin:10px;
+	color:#007bff;
+	font-weight: bold;
+}
+.follow b{
+	color: red;
+}
